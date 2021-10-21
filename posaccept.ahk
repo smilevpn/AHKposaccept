@@ -6,8 +6,16 @@ Loop, {
         b := 0
         Break
     }
-Click 100, 100
-Sleep,  6000
+Click 780, 295
+Sleep,  2000
+Send, ^{End}
+Sleep, 500
+Click 720, 854
+Sleep,  1000
+Send, ^{Home}
+Sleep, 500
+Click 738, 184
+Sleep,  1000
 }
 
 F11:: 
